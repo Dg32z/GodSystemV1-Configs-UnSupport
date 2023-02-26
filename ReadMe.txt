@@ -5,12 +5,16 @@ GrimAC V2.3.35
 +
 Matrix 7.0.34A [不提供,需要购买]
 +
-Vulcan 2.7.2 
+Vulcan 2.7.2 [不提供,需要购买]
 
 有误判可以汇报给GodEyes团队的任何一名队员
 推荐直接找我
 
 此配置适用于1.8x-1.19x
 在使用前请查看2个反作弊的配置中的部分注释,可以在误判时帮您的忙
-
 Warnning!!!! 禁止倒卖,倒卖SM!!!!!!!!!!!!!!
+
+ProtocolLib：https://ci.dmulloy2.net/job/ProtocolLib/lastSuccessfulBuild/
+Matrix: http://matrix.rip/
+Vulcan: https://www.spigotmc.org/resources/vulcan-anti-cheat-advanced-cheat-detection-1-7-1-19-3.83626/
+Grim: https://www.spigotmc.org/resources/grim-anticheat.99923/
