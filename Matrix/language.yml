@@ -1,0 +1,107 @@
+#### 矩阵配置 - language.yml ##################################### ###########
+#
+# 您好，欢迎使用Matrix反作弊，这是language.yml，用于
+# 定义反作弊的显示语言。 在这里你可以定义什么消息
+# 反作弊显示。
+#
+# - 如果您遇到任何问题，请访问我们的官方 Discord
+# 求助群：https://discord.gg/pEvY55J
+#
+# 无论如何，感谢您使用 Matrix antiheat！ ?
+#
+############################################### ##################################
+
+# 你可以在这里定义消息前缀
+prefix: '&d&lGodSystem &f&l» '
+
+# 定义玩家被反作弊踢出后的公告信息
+kick-format: '玩家 %player% 因作弊被踢!'
+
+# Matrix 是否应该在玩家被踢出时广播消息？
+kick-broadcast: false
+
+# 当Matrix检测到时应该向玩家发送什么消息
+# 玩家发送聊天消息太快？
+spam-warning: '你不能那么快聊天或再次发送相同的内容！'
+
+# 定义详细消息的格式
+#
+# 什么是“详细信息”？
+# 当Matrix检测到玩家作弊时，Matrix会输出一个
+# 调试消息显示检测信息，这将是有用的
+# 供开发者调试反作弊。 您可以使用“/matrix verbose”切换它
+# 命令，但通常你不需要阅读这条消息，它通常只需要
+# 在报告错误时使用。
+
+## verbose-format: '&4%player% &a| &2%check% &a| &bvl:%vl% &e(&c+%add_vl%&e) &a| &bping:%ping% &a|&bTPS:%tps% &a| &blp:%lp% &a| &b组件:%component% &a| &b版本:%version% &a| &b%message%'
+
+verbose-format: |-
+  &7
+  &7=================&cVerbose Info&7=================
+  &b  ID: &e%player%  &a|  &bPing: &e%ping%  &a|  &bVersion: &e%version%  &a|  &bTPS: &e%tps%
+  &b  Type: &4%check%  &a|  &bvl: &a%vl% &e(&c+%add_vl%&e)  &a|  &b组件: &d%component%  &a|  &bLP &e:%lp%
+  &8 %message%
+  &7=============================================
+
+# 定义当玩家试图快速移动时矩阵阻止它的消息
+# 被反作弊踢出后重新连接服务器
+relog-message: '请等待 %time_left% 秒后重新登录！'
+
+# Global Placeholders，这里可以定义常量，可以在checks.yml中使用
+#
+# 例如定义：
+# kick_help: "如果你认为是误报，可以联系Mod解决误踢"
+# 然后可以在checks.yml中使用%gp_kick_help%，会自动替换成这句话
+#
+global_placeholder: {}
+
+# 定义命令说明
+commands:
+  verbose: '显示/隐藏矩阵详细消息'
+  notify: '向所有在线玩家发送消息'
+  toggle-notify: '切换通知消息输出'
+  npc: '在玩家身后生成一个假人检测杀戮光环'
+  kick: '踢出玩家'
+  msg: '向玩家发送警告信息'
+  gui: '打开控制面板'
+  violations: '打开违规控制面板'
+  ping: '获取播放器延迟值'
+  cps: '监控玩家 CPS 数据几秒钟'
+  reload: '重载配置文件'
+  
+gui:
+  main:
+    toggle-checks:
+      name: '&a切换检查'
+      description: '&7点击打开检查GUI'
+    show-violations:
+      name: '&a显示违规'
+      description: '&7点击打开违规GUI'
+    toggle-verbose:
+      name: '&a切换详细'
+      description: '&7单击以启用/禁用详细消息'
+    reload-matrix:
+      name: '&c重新加载Matrix'
+      description: '&7点击重新加载插件'
+    server-status:
+      name: '&b服务器状态'
+    support-links:
+      name: '&b支持链接'
+    premium-user:
+      name: '&b企业用户'
+    close-gui:
+      name: '&c关闭'
+      
+misc:
+  update:
+    start-checking: '开始检查更新....'
+    updater: '§a> 矩阵更新程序:'
+    has-update: '§cMatrix 有新版本: §f%latest%  §c当前版本: §2%current%'
+    latest: '§a您正在使用最新版本的 Matrix-AntiCheat :D'
+    download-link: '§c下载链接'
+  premium:
+    pass: '高级版本验证已通过！'
+    expire-time: '过期时间: %time%'
+  reload:
+    start-reload: '重载Matrix...'
+    reloaded: 'Matrix重新加载'

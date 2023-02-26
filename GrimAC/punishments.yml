@@ -1,0 +1,81 @@
+# %check_name% - 检查名称
+# %vl% - 违规
+# %verbose% - 额外信息
+# %player% - 玩家名字
+# [alert] - 警告的特殊命令
+# [webhook] - 警告discord webhook 的特殊命令
+# [proxy] - special command to alert to other servers connected to your proxy (BungeeCord/Velocity)
+Punishments:
+  Simulation:
+    # 当达到多少VL时移除玩家
+    remove-violations-after: 470 #原300
+    checks:
+      - "Simulation"
+      - "GroundSpoof"
+      - "Timer"
+      - "NoFall"
+    # Threshold:Interval Command
+    #
+    # 这是个例子, 当到达100VL时为了以 "incorrect movement!" 为理由踢出玩家
+    # commands:
+    # - "100:0 kick %player% incorrect movement!"
+    # 0 means execute exactly once
+    # - "100:50 say %player% is cheating"
+    # Execute when the user hits flag 100, and after that, every 50th flag after 100
+    #
+    commands:
+      - "30:10 [alert]"
+      - "360:0 kick -p %player% &7&lUnfair Advange"
+  Knockback:
+    remove-violations-after: 380 #原300
+    checks:
+      - "Knockback"
+      - "Explosion"
+    commands:
+      - "10:10 [alert]"
+      - "40:0 kick -p %player% &7&lUnfair Advange"
+  Post:
+    remove-violations-after: 400 #原300
+    checks:
+      - "Post"
+    commands:
+      - "10:10 [alert]"
+      - "60:0 kick -p %player% &7&lUnfair Advange"
+  BadPackets:
+    remove-violations-after: 340 #原300
+    checks:
+      - "BadPackets"
+      - "Crash"
+    commands:
+      - "20:5 [alert]"
+      - "80:0 kick -p %player% &7&lUnfair Advange"
+  Reach:
+    remove-violations-after: 170 #原300
+    checks:
+      - "Reach"
+    commands:
+      - "5:5 [alert]"
+      - "35:0 kick -p %player% &7&lUnfair Advange"
+  Misc:
+    remove-violations-after: 450 #原300
+    checks:
+      - "EntityControl"
+      - "NoSlow"
+      - "Baritone"
+      - "FastBreak" #开启这个时关闭您服务器的反矿透,如需要反就把这个检查删了
+    commands:
+      - "10:5 [alert]"
+      - "100:0 kick -p %player% &7&lUnfair Advange"
+  Combat:
+    remove-violations-after: 340 #原300
+    checks:
+      - "Killaura"
+    commands:
+      - "10:5 [alert]"
+      - "50:0 kick -p %player% &7&lUnfair Advange"
+  Autoclicker:
+    remove-violations-after: 27
+    checks:
+      - "Autoclicker"
+    commands:
+      - "10:0 matrix notify LOL"

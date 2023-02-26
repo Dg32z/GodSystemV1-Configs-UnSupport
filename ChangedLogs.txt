@@ -1,0 +1,51 @@
+2023218 更新:
+[Fixed] 修复模拟移动的
+[Fixed] 修复Matrix的一些误判
+[Fixed] 修复Matrix/GrimAC一些VL给大的情况
+============================
+[Updated] 更新部分检查的VL
+============================
+[Disabled] 关闭Matrix的鞘翅检查
+
+2023221 更新:
+[Fixed] 修复模拟移动的部分莫名其妙的回弹
+[Fixed] 修复Matrix对于转头检查的误判
+============================
+[Updated] Matrix版本至7.0.34A
+[Updated] 更新部分检查的VL
+[Updated] 更新Grim的模拟移动配置[减少误判]
+[Updated] 更新部分注释
+
+2023223 更新:
+[Fixed] 修复模拟移动的一些阈值问题
+[Fixed] 修复了点MatrixVl太大的问题
+============================
+[Updated] 调整模拟移动部分参数
+[Updated] 调整Grim的Reach部分参数,目前最高检查为3.1 [3.1以下的检查没意义,还有概率误判]
+[Updated] Matrix惩罚系统的下降VL逻辑
+[Updated] Matrix的Aura检查的子模块VL调整
+[Updated] KillAura的StrafeVL调整为一次Flag得到4VL
+[Updated] Matrix的AutoClicker的MaxCps调整为35
+[Updated] 默认打开MaxCPS [MatrixAntiCheat有需求的自己关]
+[Updated] 调整MatrixAura检查的VL大小
+[Updated] 调整Velocity的VL摔降逻辑
+[Updated] 开始提供ProtocolLib
+============================
+[Disabled] Matrix的Move子检查move.sprint [于玩家丢包时后退导致误判]
+[Disabled] Matrix的interact子检查interact.vis 
+[Disabled] Matrix的Critical检查
+[Disabled] Matrix的Chat检查 [有需求的自己开]
+
+2023226 更新:
+[Fixed] 修复Matrix部分检查VL过小/过大问题
+[Fixed] 修复Matrix的一个关于转头检查的误判
+[Fixed] 修复Vulcan的注入问题
+[Fixed] 修复Vulcan的AimBot检查在玩家摇晃时的误判
+============================
+[Added] Vulcan-2.7.2
+============================
+[Updated] 提供Vulcan文件
+[Updated] 更新Matrix的Movement检查的VL
+[Updated] 更新Grim的模拟移动配置[减少误判]
+[Updated] 更新部分注释
+[Updated] 优化部分检查的参数
