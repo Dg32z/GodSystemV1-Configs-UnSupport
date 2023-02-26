@@ -13,6 +13,8 @@ Vulcan 2.7.2 [不提供,需要购买]
 此配置适用于1.8x-1.19x
 在使用前请查看3个反作弊的配置中的部分注释,可以在误判时帮您的忙
 QQ群: 716213919
+QQ: 779664169
+Discord: Simpleeeee#2174
 
 ProtocolLib：https://ci.dmulloy2.net/job/ProtocolLib/lastSuccessfulBuild/
 Matrix: http://matrix.rip/
