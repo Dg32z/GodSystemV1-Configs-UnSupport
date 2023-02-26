@@ -3,7 +3,7 @@
 本次的反作弊配置搭配:
 GrimAC V2.3.35
 +
-Matrix 7.0.34A [不提供,需要购买]
+Matrix 7.0.36A [不提供,需要购买]
 +
 Vulcan 2.7.2 [不提供,需要购买]
 
@@ -11,8 +11,8 @@ Vulcan 2.7.2 [不提供,需要购买]
 推荐直接找我
 
 此配置适用于1.8x-1.19x
-在使用前请查看2个反作弊的配置中的部分注释,可以在误判时帮您的忙
-Warnning!!!! 禁止倒卖,倒卖SM!!!!!!!!!!!!!!
+在使用前请查看3个反作弊的配置中的部分注释,可以在误判时帮您的忙
+QQ群: 716213919
 
 ProtocolLib：https://ci.dmulloy2.net/job/ProtocolLib/lastSuccessfulBuild/
 Matrix: http://matrix.rip/
