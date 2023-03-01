@@ -236,7 +236,7 @@ messages:
   latest-version: '%prefix% &a你正在运行1最新版本的Vulcan!'
   injection-failure: 你加入的太快了，请稍后重试!
   frozen: '&c你被冻结了! 请联系管理员处理.'
-  logged-out-while-frozen: '%prefix% &c%player% 登录服务器时被冻结!'
+  logged-out-while-frozen: '%prefix% &c%player% 在被冻结时离开服务器!'
   froze: '%prefix% &7你冻结了玩家 &a%player%&7!'
   unfroze: '%prefix% &7你解冻了玩家 &c%player%!'
   freeze-command-syntax: '%prefix% &c正确用法: /vulcan freeze (玩家名)'
