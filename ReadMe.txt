@@ -2,9 +2,9 @@
 
 后续的版本发布于Releases
 本次的反作弊配置搭配:
-GrimAC V2.3.35
+GrimAC V2.3.39
 +
-Matrix 7.0.36A [不提供,需要购买]
+Matrix 7.0.43A [不提供,需要购买]
 +
 Vulcan 2.7.2 [不提供,需要购买]
 
