@@ -13,4 +13,4 @@ ProtocolLib：https://ci.dmulloy2.net/job/ProtocolLib/lastSuccessfulBuild/
 Matrix: http://matrix.rip/
 Vulcan: https://www.spigotmc.org/resources/vulcan-anti-cheat-advanced-cheat-detection-1-7-1-19-3.83626/
 karhu: karhu.ac
-ACE: @QQ:41158168
+EAC: @QQ:41158168
